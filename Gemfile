@@ -5,7 +5,7 @@ gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'rack', :git => 'git://github.com/rack/rack.git'
 
 gem "bson_ext"
-gem "mongoid"
+gem "mongoid", :git => 'git://github.com/mongoid/mongoid.git'
 
 # Use unicorn as the web server
 # gem 'unicorn'

@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/mongoid/mongoid.git
+  revision: 39ede2eae143feadc6f434b62f77d8002e26a977
+  specs:
+    mongoid (2.0.1)
+      activemodel (~> 3.0)
+      mongo (~> 1.3)
+      tzinfo (~> 0.3.22)
+
+GIT
   remote: git://github.com/rack/rack.git
   revision: 37d2b2fe40667eb0a7ff89111713832be934aa9f
   specs:
@@ -69,11 +78,6 @@ GEM
     mime-types (1.16)
     mongo (1.3.0)
       bson (>= 1.3.0)
-    mongoid (2.0.1)
-      activemodel (~> 3.0)
-      mongo (~> 1.3)
-      tzinfo (~> 0.3.22)
-      will_paginate (~> 3.0.pre)
     multi_json (1.0.0)
     polyglot (0.3.1)
     rack-cache (1.0.1)
@@ -89,13 +93,12 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.27)
-    will_paginate (3.0.pre2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   bson_ext
-  mongoid
+  mongoid!
   rack!
   rails!
