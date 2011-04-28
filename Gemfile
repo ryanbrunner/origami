@@ -2,8 +2,10 @@ source 'http://rubygems.org'
 
 # Bundle edge Rails instead:
 gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'rack', :git => 'git://github.com/rack/rack.git'
 
-gem 'sqlite3'
+gem "bson_ext"
+gem "mongoid"
 
 # Use unicorn as the web server
 # gem 'unicorn'
