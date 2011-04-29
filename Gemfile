@@ -9,6 +9,8 @@ gem "mongoid", :git => 'git://github.com/mongoid/mongoid.git'
 
 gem 'inherited_resources'
 
+gem 'haml'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

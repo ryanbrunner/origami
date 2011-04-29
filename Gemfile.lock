@@ -71,6 +71,7 @@ GEM
     builder (3.0.0)
     diff-lcs (1.1.2)
     erubis (2.7.0)
+    haml (3.1.1)
     has_scope (0.5.0)
     i18n (0.6.0beta1)
     inherited_resources (1.2.2)
@@ -119,6 +120,7 @@ PLATFORMS
 
 DEPENDENCIES
   bson_ext
+  haml
   inherited_resources
   mongoid!
   rack!
