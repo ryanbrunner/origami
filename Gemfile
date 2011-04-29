@@ -21,3 +21,4 @@ group :test, :development do
   gem 'mongoid-rspec'
 end
 
+gem 'heroku'
