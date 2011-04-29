@@ -17,4 +17,6 @@ group :test, :development do
   gem 'cucumber-rails'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'mongoid-rspec'
 end
+

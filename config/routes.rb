@@ -1,5 +1,7 @@
 Origami::Application.routes.draw do
 
+	devise_for :users
+	
   resources :posts, :except => :show
 
   # You can have the root of your site routed with "root"
