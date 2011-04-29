@@ -11,3 +11,4 @@ Feature: Manage posts
     And I am on the posts page
     Then I should see "My Post"
     And I should see "My 2nd post"
+    And show me the page
