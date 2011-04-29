@@ -7,6 +7,10 @@ gem 'rack', :git => 'git://github.com/rack/rack.git'
 gem "bson_ext"
 gem "mongoid", :git => 'git://github.com/mongoid/mongoid.git'
 
+gem 'inherited_resources'
+
+gem 'haml'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
