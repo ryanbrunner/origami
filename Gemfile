@@ -29,3 +29,8 @@ gem "mongoid", :git => 'git://github.com/mongoid/mongoid.git'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'spork'
+end
