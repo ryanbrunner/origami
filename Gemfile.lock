@@ -113,7 +113,7 @@ GEM
     has_scope (0.5.0)
     heroku (1.20.1)
       launchy (~> 0.3.2)
-      rest-client (>= 1.4.0, < 1.7.0)
+      rest-client (< 1.7.0, >= 1.4.0)
     i18n (0.6.0beta1)
     inherited_resources (1.2.2)
       has_scope (~> 0.5.0)
@@ -163,6 +163,7 @@ GEM
       railties (~> 3.0)
       rspec (~> 2.5.0)
     rubyzip (0.9.4)
+    sass (3.1.1)
     selenium-webdriver (0.2.0)
       childprocess (>= 0.1.7)
       ffi (>= 1.0.7)
@@ -196,4 +197,5 @@ DEPENDENCIES
   rack!
   rails!
   rspec-rails
+  sass
   spork
