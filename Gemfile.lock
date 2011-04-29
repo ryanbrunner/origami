@@ -8,6 +8,15 @@ GIT
       tzinfo (~> 0.3.22)
 
 GIT
+  remote: git://github.com/plataformatec/devise.git
+  revision: b1a27ad6338638e537adf3fc1814e3f1dcf5d811
+  specs:
+    devise (1.4.0.dev)
+      bcrypt-ruby (~> 2.1.2)
+      orm_adapter (~> 0.0.3)
+      warden (~> 1.0.3)
+
+GIT
   remote: git://github.com/rack/rack.git
   revision: 37d2b2fe40667eb0a7ff89111713832be934aa9f
   specs:
@@ -69,6 +78,7 @@ GEM
     bson (1.3.0)
     bson_ext (1.3.0)
     builder (3.0.0)
+    database_cleaner (0.6.7)
     diff-lcs (1.1.2)
     erubis (2.7.0)
     i18n (0.6.0beta1)
@@ -79,7 +89,11 @@ GEM
     mime-types (1.16)
     mongo (1.3.0)
       bson (>= 1.3.0)
+    mongoid-rspec (1.4.2)
+      mongoid (~> 2.0)
+      rspec (~> 2)
     multi_json (1.0.0)
+    orm_adapter (0.0.4)
     polyglot (0.3.1)
     rack-cache (1.0.1)
       rack (>= 0.4)
@@ -108,13 +122,18 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.27)
+    warden (1.0.3)
+      rack (>= 1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   bson_ext
+  database_cleaner
+  devise!
   mongoid!
+  mongoid-rspec
   rack!
   rails!
   rspec-rails

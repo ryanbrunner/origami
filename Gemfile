@@ -22,6 +22,7 @@ gem "mongoid", :git => 'git://github.com/mongoid/mongoid.git'
 # gem 'nokogiri'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
+gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
@@ -33,4 +34,6 @@ gem "mongoid", :git => 'git://github.com/mongoid/mongoid.git'
 group :test, :development do
   gem 'rspec-rails'
   gem 'spork'
+	gem 'mongoid-rspec'
+	gem 'database_cleaner'
 end
