@@ -31,3 +31,8 @@ gem 'inherited_resources'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'spork'
+end
