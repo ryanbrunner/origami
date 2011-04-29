@@ -9,6 +9,5 @@ Feature: Manage posts
       | My post      | Cool post         |
       | My 2nd post  | Cooler post       |
     And I am on the posts page
-    Then I should see "My Post"
+    Then I should see "My post"
     And I should see "My 2nd post"
-    And show me the page

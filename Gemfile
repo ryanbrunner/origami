@@ -10,6 +10,7 @@ gem "mongoid", :git => 'git://github.com/mongoid/mongoid.git'
 gem 'inherited_resources'
 
 gem 'haml'
+gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 
 group :test, :development do
   gem 'rspec-rails'
