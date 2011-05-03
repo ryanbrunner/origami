@@ -11,6 +11,7 @@ gem 'inherited_resources'
 
 gem 'sprockets', :git => 'git://github.com/sstephenson/sprockets'
 gem 'haml'
+gem 'sass'
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 
 group :test, :development do
