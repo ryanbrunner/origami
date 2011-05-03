@@ -9,6 +9,7 @@ gem "mongoid", :git => 'git://github.com/mongoid/mongoid.git'
 
 gem 'inherited_resources'
 
+gem 'sprockets', :git => 'git://github.com/sstephenson/sprockets'
 gem 'haml'
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 
