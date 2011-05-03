@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Origami::Application.config.secret_token = 'ea6e74958b4d7b5b489b7180fc72285cb652d57dbe74929f69220b6ff8e2a57269b060ae3418c11144b6071eae61647cb72f491924815bcbc80a610de02bab60'
+Origami::Application.config.secret_token = 'cfd64b054e8bde146cb5f331601c98ed812c9f7bcaf62c325f89b524b7c537523ffc496f5340d37bc53c6b28dab56cadaa0cac0f6df54a4f8d4e553b499c6cc2'
