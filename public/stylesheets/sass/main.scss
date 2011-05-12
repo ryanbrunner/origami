@@ -1,0 +1,19 @@
+ul.posts {
+  list-style: none;
+  li {
+    border: solid 1px grey;
+    .title {
+      font-weight: bold;
+      font-size: 16pt;
+    }
+    .content {
+      
+    }
+  }
+}
+
+form {
+  label {
+    display: block;
+  }
+}

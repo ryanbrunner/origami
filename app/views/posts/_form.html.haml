@@ -1,0 +1,9 @@
+=form_for @post do |f|
+  .title
+    =f.label :title
+    =f.text_field :title
+  .content
+    =f.label :content
+    =f.text_area :content
+  .submit
+    =f.submit

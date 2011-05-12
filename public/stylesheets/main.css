@@ -1,0 +1,18 @@
+/* line 1, sass/main.scss */
+ul.posts {
+  list-style: none;
+}
+/* line 3, sass/main.scss */
+ul.posts li {
+  border: solid 1px grey;
+}
+/* line 5, sass/main.scss */
+ul.posts li .title {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+/* line 16, sass/main.scss */
+form label {
+  display: block;
+}

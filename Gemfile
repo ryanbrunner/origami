@@ -12,6 +12,8 @@ gem 'inherited_resources'
 gem 'haml'
 gem 'sass' # enough SASS warnings already
 
+gem 'compass'
+
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 
 group :test, :development do
