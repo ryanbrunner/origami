@@ -16,6 +16,8 @@ gem 'compass'
 
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 
+gem 'cancan'
+
 group :test, :development do
   gem 'rspec-rails'
   gem 'spork'
