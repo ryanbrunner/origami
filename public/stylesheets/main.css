@@ -11,6 +11,10 @@ ul.posts li .title {
   font-weight: bold;
   font-size: 16pt;
 }
+/* line 9, sass/main.scss */
+ul.posts li .content {
+  background-color: red;
+}
 
 /* line 16, sass/main.scss */
 form label {
