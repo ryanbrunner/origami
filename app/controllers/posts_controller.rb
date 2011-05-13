@@ -1,5 +1,5 @@
 class PostsController < InheritedResources::Base
-#  load_and_authorize_resource
+  skip_authorization_check :only => [:index, :show]
   respond_to :html, :xml, :json
   actions :all, :except => :show
 end
