@@ -1,6 +1,12 @@
 @import 'compass/reset';
 @import 'compass/css3';
 
+$primary_color: #F0F;
+$secondary_color: #0F0;
+$background_color: #FFFFFF;
+BODY { background-color: $primary_color; }
+
+
 ul.posts {
   
   li {

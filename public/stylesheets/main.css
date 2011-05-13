@@ -64,17 +64,22 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 6, sass/main.scss */
+/* line 7, sass/main.scss */
+BODY {
+  background-color: fuchsia;
+}
+
+/* line 12, sass/main.scss */
 ul.posts li {
   border: solid 1px grey;
 }
-/* line 8, sass/main.scss */
+/* line 14, sass/main.scss */
 ul.posts li .title {
   font-weight: bold;
   font-size: 16pt;
 }
 
-/* line 18, sass/main.scss */
+/* line 24, sass/main.scss */
 form label {
   display: block;
 }

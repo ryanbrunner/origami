@@ -1,8 +1,6 @@
 require 'spec_helper'
 
 describe Post do
-  it "should always have a title" do
-    Post.new().should_not be_valid
-  end
-  
+  it { should validate_presence_of :title }
+  it { should have_field :title }
 end
