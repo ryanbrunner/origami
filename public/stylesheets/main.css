@@ -16,3 +16,13 @@ ul.posts li .title {
 form label {
   display: block;
 }
+
+/* line 20, sass/main.scss */
+nav {
+  float: right;
+}
+
+/* line 21, sass/main.scss */
+section#content {
+  clear: both;
+}
