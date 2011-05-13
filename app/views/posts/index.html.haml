@@ -1,3 +1,5 @@
 %ul.posts=render @posts
-
-.add_post=link_to "New Post", new_post_path, :remote => true
+- if can? :create, @post
+  .add_post= link_to "New Post", new_post_path, :remote => true
+- else
+  %em= "You're not allowed to create new posts."
