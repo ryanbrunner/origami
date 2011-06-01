@@ -24,7 +24,7 @@ class Theme
     ["$primary_color: #{self.primary_color};",
      "$secondary_color: #{self.secondary_color};",
      "$background_color: #{self.background_color};",
-     "BODY { background-color: $primary_color; }"].join("\n")
+     "BODY { background-color: $background_color; }"].join("\n")
   end
 
   def generate_sass
