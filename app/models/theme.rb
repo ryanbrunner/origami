@@ -34,7 +34,7 @@ class Theme
   end
 
   def save_file (content)
-    File.open File.join(Rails.root, 'public', 'stylesheets', file_name), 'w' do |f|
+    File.open File.join(Rails.root, 'public', 'stylesheets', file_name), 'w+' do |f|
       f.puts content
     end 
   end

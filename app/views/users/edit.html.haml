@@ -1,0 +1,11 @@
+%h1= "Editing #{@user.name}"
+
+= form_for @user do |f|
+  %p
+    = f.label :name
+    = f.text_field :name
+  %p
+    = f.label :role, 'Admin?'
+    = f.check_box :role, {}, 'admin', ''
+  %p
+    = f.submit 'Update'
