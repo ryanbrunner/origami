@@ -1,0 +1,39 @@
+/* line 3, sass/adminui.scss */
+body {
+  background-color: #ddd;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* line 11, sass/adminui.scss */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* line 16, sass/adminui.scss */
+h1 {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -o-border-top-left-radius: 5px;
+  -ms-border-top-left-radius: 5px;
+  -khtml-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -o-border-top-right-radius: 5px;
+  -ms-border-top-right-radius: 5px;
+  -khtml-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 2px solid #444444;
+  background-color: white;
+  padding: 5px 10px;
+  width: 150px;
+}
+
+/* line 25, sass/adminui.scss */
+section.body_section {
+  background-color: white;
+  padding: 10px 15px;
+  border: 2px solid #444444;
+  margin-top: -2px;
+}

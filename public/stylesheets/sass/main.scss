@@ -25,5 +25,17 @@ form {
     display: block;
   }
 }
-nav {float: right;}
+nav {
+  float: right;
+  li {
+    display:block;
+    float:left;
+  }
+  li a {
+    font-size:12px;
+    color:#000;
+    margin:0 5px;
+  }
+  overflow:hidden;
+}
 section#content {clear: both;}

@@ -1,0 +1,30 @@
+@import 'compass/css3';
+
+body {
+  background-color:#ddd;
+  font-family:'Helvetica Neue', Helvetica, sans-serif;
+}
+
+$content_bg: #fff;
+$border_style: 2px solid #444;
+
+.container {
+  width:900px;
+  margin:0 auto;
+}
+
+h1 {
+  @include border-top-left-radius(5px);
+  @include border-top-right-radius(5px);
+  border:$border_style;
+  background-color:$content_bg;
+  padding:5px 10px;
+  width:150px;
+}
+
+section.body_section {
+  background-color:$content_bg;
+  padding:10px 15px;
+  border:$border_style;
+  margin-top:-2px;
+}
